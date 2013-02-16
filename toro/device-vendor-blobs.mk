@@ -34,6 +34,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/toro/proprietary/libGLESv2_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
     vendor/samsung/toro/proprietary/gps.omap4.so:system/vendor/lib/hw/gps.omap4.so \
     vendor/samsung/toro/proprietary/gralloc.omap4.so:system/vendor/lib/hw/gralloc.omap4.so \
+    vendor/samsung/toro/proprietary/hwcomposer.omap4.so:system/vendor/lib/hw/hwcomposer.omap4.so \
     vendor/samsung/toro/proprietary/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
     vendor/samsung/toro/proprietary/libIMGegl.so:system/vendor/lib/libIMGegl.so \
     vendor/samsung/toro/proprietary/libinvensense_mpl.so:system/vendor/lib/libinvensense_mpl.so \
