@@ -17,7 +17,6 @@
 PRODUCT_COPY_FILES += \
         vendor/samsung/jf-common/proprietary/bin/mpdecision:system/bin/mpdecision \
         vendor/samsung/jf-common/proprietary/bin/thermald:system/bin/thermald \
-        vendor/samsung/jf-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
         vendor/samsung/jf-common/proprietary/vendor/firmware/bcm2079xB4_firmware.ncd:system/vendor/firmware/bcm2079xB4_firmware.ncd \
         vendor/samsung/jf-common/proprietary/vendor/firmware/bcm2079xB4_pre_firmware.ncd:system/vendor/firmware/bcm2079xB4_pre_firmware.ncd \
         vendor/samsung/jf-common/proprietary/vendor/firmware/bcm4335.hcd:system/vendor/firmware/bcm4335.hcd \
@@ -27,8 +26,8 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/jf-common/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
         vendor/samsung/jf-common/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
         vendor/samsung/jf-common/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
-        vendor/samsung/jf-common/proprietary/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
-        vendor/samsung/jf-common/proprietary/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin \
+        vendor/samsung/jf-common/proprietary/etc/firmware/wcd9310/wcd9310_anc.bin:etc/firmware/wcd9310/wcd9310_anc.bin \
+        vendor/samsung/jf-common/proprietary/etc/firmware/wcd9310/wcd9310_mbhc.bin:etc/firmware/wcd9310/wcd9310_mbhc.bin \
         vendor/samsung/jf-common/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
         vendor/samsung/jf-common/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
         vendor/samsung/jf-common/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
@@ -167,7 +166,6 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/jf-common/proprietary/etc/wifi/bcmdhd_sta.bin_a0:system/etc/wifi/bcmdhd_sta.bin_a0 \
         vendor/samsung/jf-common/proprietary/etc/wifi/cred.conf:system/etc/wifi/cred.conf \
         vendor/samsung/jf-common/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
-        vendor/samsung/jf-common/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt_murata \
         vendor/samsung/jf-common/proprietary/etc/wifi/nvram_mfg.txt_a0:system/etc/wifi/nvram_mfg.txt_a0 \
         vendor/samsung/jf-common/proprietary/etc/wifi/nvram_mfg.txt_murata_a0:system/etc/wifi/nvram_mfg.txt_murata_a0 \
         vendor/samsung/jf-common/proprietary/etc/wifi/nvram_mfg.txt_muratafem1:system/etc/wifi/nvram_mfg.txt_muratafem1 \
@@ -176,7 +174,6 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/jf-common/proprietary/etc/wifi/nvram_mfg.txt_semco3rd_a0:system/etc/wifi/nvram_mfg.txt_semco3rd_a0 \
         vendor/samsung/jf-common/proprietary/etc/wifi/nvram_mfg.txt_semcosh:system/etc/wifi/nvram_mfg.txt_semcosh \
         vendor/samsung/jf-common/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
-        vendor/samsung/jf-common/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt_murata \
         vendor/samsung/jf-common/proprietary/etc/wifi/nvram_net.txt_a0:system/etc/wifi/nvram_net.txt_a0 \
         vendor/samsung/jf-common/proprietary/etc/wifi/nvram_net.txt_murata_a0:system/etc/wifi/nvram_net.txt_murata_a0 \
         vendor/samsung/jf-common/proprietary/etc/wifi/nvram_net.txt_muratafem1:system/etc/wifi/nvram_net.txt_muratafem1 \
